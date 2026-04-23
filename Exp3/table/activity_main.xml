@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Result"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <!-- Header Row -->
+    <TableRow
+        android:background="#DDDDDD"
+        android:padding="8dp">
+
+        <TextView
+            android:text="Subject"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Marks"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+
+        <TextView
+            android:text="Math"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="85"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+
+        <TextView
+            android:text="Science"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="90"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 3 -->
+    <TableRow>
+
+        <TextView
+            android:text="English"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="78"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Total Row -->
+    <TableRow
+        android:background="#EEEEEE">
+
+        <TextView
+            android:text="Total"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+    </TableRow>
+
+</TableLayout>
